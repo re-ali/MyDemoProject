@@ -41,6 +41,7 @@ export default class DefaultScreen extends Component {
   onSkip = () => {
     this.setState({activateSlider: false});
     // AsyncStorage.setItem('FirstTime', true);
+    //hello
   };
 
   render() {
